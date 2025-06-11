@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "kilo-test",
+  "build": {
+    "env": {}
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
